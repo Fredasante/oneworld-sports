@@ -436,8 +436,8 @@
   display: none;
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 768px) {
   .staff-text {
-    margin-top: 70px;
+    margin-top: 40px;
   }
 }
