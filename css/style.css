@@ -435,3 +435,9 @@
 .display-none {
   display: none;
 }
+
+@media (min-width: 1000px) {
+  .staff-text {
+    margin-top: 70px;
+  }
+}
