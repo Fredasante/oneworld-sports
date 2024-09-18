@@ -1,8 +1,9 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/$1.html"
-    }
+  "redirects": [
+    { "source": "/", "destination": "/index.html", "permanent": true },
+    { "source": "/about", "destination": "/about.html", "permanent": true },
+    { "source": "/service", "destination": "/service.html", "permanent": true },
+    { "source": "/staff", "destination": "/staff.html", "permanent": true },
+    { "source": "/contact", "destination": "/contact.html", "permanent": true }
   ]
 }
