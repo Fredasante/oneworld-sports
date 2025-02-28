@@ -369,3 +369,10 @@
     margin-top: 40px;
   }
 }
+
+.background-video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
